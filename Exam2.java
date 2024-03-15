@@ -3,13 +3,12 @@ public class Exam2 {
         String str1 = new String();
         str1 = "*";
         String str2 = new String();
-        str2 = " ";
-
-        for (int i=0; i<3; i++) {
-            System.out.print(str2);
+        str2 = "";
+        for (int i=3; i>0; i--) {
             for (int t=5; t>0; t--){
                 System.out.print(str1);
             }
+            System.out.println(str2);
         }
         // 높이 : 3
 
@@ -23,8 +22,11 @@ public class Exam2 {
         System.out.println();
         System.out.println();
 
-        for (int i=0; i<5; i++) {
-            System.out.println("*");
+        for (int i=5; i>0; i--) {
+            for (int t=9; t>0; t--){
+                System.out.print(str1);
+            }
+            System.out.println(str2);
         }
         // 높이 : 5
 
@@ -41,8 +43,11 @@ public class Exam2 {
          */
 
         System.out.println();
-        for (int i=0; i<7; i++) {
-            System.out.println("*");
+        for (int i=7; i>0; i--) {
+            for (int t=13; t>0; t--){
+                System.out.print(str1);
+            }
+            System.out.println(str2);
         }
         // 높이 : 7
 
